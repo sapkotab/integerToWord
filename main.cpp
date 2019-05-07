@@ -27,7 +27,6 @@ string intToWord(int number ){
         }
     }
     else if( number < 1000){
-        // mtaking care of number finish with "ty"
         if (!(number % 100)){
             result = intToWord(number/100) + " Hundred";
         }
@@ -45,7 +44,6 @@ string intToWord(int number ){
         }
     }
     else if( number < 1000000000){
-        // mtaking care of number finish with "ty"
         if (!(number % 1000000)){
             result = intToWord(number/1000000) + " Million";
         }
