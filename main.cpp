@@ -58,7 +58,7 @@ int main()
 {
     int number = 1;
     while (number > 0) {
-        cout << "Please enter the Number or negetive number to exit\n";
+        cout << "Please enter a positive Number to print it in the string form or negetive number to exit the program\n";
         cin >> number;
         cout << intToWord(number) << endl;
     }
